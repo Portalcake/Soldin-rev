@@ -1,0 +1,46 @@
+﻿loc_A8F980:
+mov     al, [esp+10h]
+mov     cl, 49h
+imul    cl
+mov     bl, al
+xor     bl, 15h
+mov     dl, cl
+mov     al, bl
+imul    dl
+mov     cl, al
+movzx   eax, bl
+mov     esi, eax
+shl     esi, 8
+lea     edi, [esi+ebp]
+lea     esi, [eax+100h]
+xor     cl, 15h
+xor     edx, edx
+shl     esi, 8
+mov     edi, edi
+
+loc_A8F9B0:
+mov     al, dl
+mov     bl, 49h
+imul    bl
+xor     al, 15h
+add     al, cl
+xor     al, 17h
+mov     [edi+edx], al
+movzx   eax, al
+add     eax, esi
+mov     [eax+ebp], dl
+inc     edx
+cmp     edx, 100h
+jl      short loc_A8F9B0
+mov     eax, [esp+10h]
+inc     eax
+cmp     eax, 100h
+mov     [esp+10h], eax
+jl      short loc_A8F980
+pop     edi
+pop     esi
+mov     eax, ebp
+pop     ebp
+pop     ebx
+pop     ecx
+retn

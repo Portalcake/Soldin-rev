@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soldin.Gateway", "Gateway\Soldin.Gateway.csproj", "{872FCFDC-F411-46E0-9177-EEEB841645FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soldin.Stage", "Stage\Soldin.Stage.csproj", "{A1BFF793-B981-431E-803E-C53557230E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soldin.Shared", "Shared\Soldin.Shared.csproj", "{8F019F7E-81AC-4DD7-9B92-39F882DFA0D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servers", "Servers", "{A152C016-245F-4957-93DB-5EC22B4E4E0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{4527797B-C051-4ECB-8C98-57A632808A34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{3F97BC49-7D3C-4FE2-84E0-FD901657D4FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFPExtractor", "Utilities\CFPExtractor\CFPExtractor.csproj", "{ADBD556F-FACC-4C5E-AF40-D96007B0CA3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{872FCFDC-F411-46E0-9177-EEEB841645FB}.Debug|x86.ActiveCfg = Debug|x86
+		{872FCFDC-F411-46E0-9177-EEEB841645FB}.Debug|x86.Build.0 = Debug|x86
+		{872FCFDC-F411-46E0-9177-EEEB841645FB}.Release|x86.ActiveCfg = Release|x86
+		{872FCFDC-F411-46E0-9177-EEEB841645FB}.Release|x86.Build.0 = Release|x86
+		{A1BFF793-B981-431E-803E-C53557230E48}.Debug|x86.ActiveCfg = Debug|x86
+		{A1BFF793-B981-431E-803E-C53557230E48}.Debug|x86.Build.0 = Debug|x86
+		{A1BFF793-B981-431E-803E-C53557230E48}.Release|x86.ActiveCfg = Release|x86
+		{A1BFF793-B981-431E-803E-C53557230E48}.Release|x86.Build.0 = Release|x86
+		{8F019F7E-81AC-4DD7-9B92-39F882DFA0D5}.Debug|x86.ActiveCfg = Debug|x86
+		{8F019F7E-81AC-4DD7-9B92-39F882DFA0D5}.Debug|x86.Build.0 = Debug|x86
+		{8F019F7E-81AC-4DD7-9B92-39F882DFA0D5}.Release|x86.ActiveCfg = Release|x86
+		{8F019F7E-81AC-4DD7-9B92-39F882DFA0D5}.Release|x86.Build.0 = Release|x86
+		{ADBD556F-FACC-4C5E-AF40-D96007B0CA3F}.Debug|x86.ActiveCfg = Debug|x86
+		{ADBD556F-FACC-4C5E-AF40-D96007B0CA3F}.Debug|x86.Build.0 = Debug|x86
+		{ADBD556F-FACC-4C5E-AF40-D96007B0CA3F}.Release|x86.ActiveCfg = Release|x86
+		{ADBD556F-FACC-4C5E-AF40-D96007B0CA3F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1BFF793-B981-431E-803E-C53557230E48} = {A152C016-245F-4957-93DB-5EC22B4E4E0C}
+		{872FCFDC-F411-46E0-9177-EEEB841645FB} = {A152C016-245F-4957-93DB-5EC22B4E4E0C}
+		{8F019F7E-81AC-4DD7-9B92-39F882DFA0D5} = {4527797B-C051-4ECB-8C98-57A632808A34}
+		{ADBD556F-FACC-4C5E-AF40-D96007B0CA3F} = {3F97BC49-7D3C-4FE2-84E0-FD901657D4FF}
+	EndGlobalSection
+EndGlobal
